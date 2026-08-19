@@ -1,0 +1,23 @@
+{
+  "name": "ditrevion-trust-bank",
+  "version": "1.0.0",
+  "description": "Full-stack banking application demo",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "banking",
+    "fintech",
+    "demo"
+  ],
+  "author": "berdyayev4b2",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
